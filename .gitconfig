@@ -1,0 +1,24 @@
+[user]
+  name = Barry Jordan
+  email = barry.jordan@allangray.co.za
+[diff]
+  tool = kdiff3
+[difftool]
+  prompt = false
+[merge]
+  tool = kdiff3
+[mergetool "kdiff3"]
+    path = C:/Program Files/KDiff3/kdiff3.exe
+    keepBackup = false
+    trustExitCode = false
+[alias]
+  co = checkout
+  br = branch
+  ci = commit
+  st = status
+  gpl = pull --rebase
+[push]
+  default = simple
+[core]
+  autocrlf = input
+  editor = vim
